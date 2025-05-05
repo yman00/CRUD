@@ -1,0 +1,11 @@
+.nav-link {
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 18px;
+  color: #808080;
+
+  &.active {
+    color: #1976d2;
+    background-color: #f2f5f7;
+  }
+}
