@@ -61,13 +61,13 @@ const Header = (props) => {
             keepMounted
             transformOrigin={{
               vertical: "top",
-              horizontal: "right",
+              horizontal: "left",
             }}
             open={open}
             onClose={handleClose}
           >
-            <Box>
-              <MenuItem onClick={handleClose}>Profile</MenuItem>
+            <Box sx={{ width: "280px", height: "35vh" }}>
+              {/* <MenuItem onClick={handleClose}>Profile</MenuItem> */}
               <MenuItem onClick={handleClose}>Logout</MenuItem>
             </Box>
           </Menu>
