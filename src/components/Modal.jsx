@@ -95,6 +95,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   },
 }));
 
+
 export default function CustomizedDialogs({ actionButton, open, onClose }) {
   return (
     <React.Fragment>
@@ -131,7 +132,7 @@ export default function CustomizedDialogs({ actionButton, open, onClose }) {
           </Typography>
         </DialogContent>
         <DialogActions>
-          <Button>Save</Button>
+          <Button onClick={onClose}>Save</Button>
         </DialogActions>
       </BootstrapDialog>
     </React.Fragment>

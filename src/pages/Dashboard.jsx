@@ -23,8 +23,7 @@ const Dashboard = () => {
       sx={{
         display: "flex",
         backgroundColor: "whitesmoke",
-        width: "88vw",
-        height: "100vh",
+        flexGrow: 1,
         justifyContent: "center",
         alignItems: "center",
       }}
@@ -36,9 +35,8 @@ const Dashboard = () => {
           flexDirection: "column",
           backgroundColor: "white",
           borderRadius: 2,
-          width: "50%",
-          height: "70%",
           mr: 1,
+          flexGrow: 1,
         }}
       >
         <TickPlacementBars />
@@ -52,7 +50,7 @@ const Dashboard = () => {
             backgroundColor: "white",
             borderRadius: 2,
             p: 2,
-            width: "100%",
+            flexGrow: 1,
           }}
         >
           <PieActiveArc data={platforms} />
@@ -65,7 +63,7 @@ const Dashboard = () => {
             backgroundColor: "white",
             borderRadius: 2,
             p: 2,
-            width: "100%",
+            flexGrow: 1,
           }}
         >
           <PieActiveArc data={desktopOS} />

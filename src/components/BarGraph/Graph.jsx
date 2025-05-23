@@ -27,7 +27,7 @@ export default function HorizontalBars() {
       layout="horizontal"
       {...chartSetting}
       width={800}
-      height={600}
+      height={570}
       borderRadius={5}
     />
   );

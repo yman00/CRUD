@@ -28,7 +28,7 @@ const Header = (props) => {
     <>
       <AppBar position="fixed">
         <Toolbar>
-          {/* <IconButton
+          <IconButton
             size="large"
             edge="start"
             color="inherit"
@@ -37,7 +37,7 @@ const Header = (props) => {
             sx={{ mr: 2 }}
           >
             <MenuIcon />
-          </IconButton> */}
+          </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             ONESTOPSHOP
           </Typography>

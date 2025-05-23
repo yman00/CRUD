@@ -14,16 +14,6 @@ import {
 
 const Settings = () => {
   return (
-    <Box
-      sx={{
-        display: "flex",
-        backgroundColor: "whitesmoke",
-        width: "100vw",
-        height: "100vh",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
       <Box
         sx={{
           display: "flex",
@@ -36,8 +26,7 @@ const Settings = () => {
         }}
       >
         <h1>SETTINGS</h1>
-      </Box>
-    </Box>
+        </Box>
   );
 };
 

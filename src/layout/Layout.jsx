@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import { Box, Stack } from "@mui/material";
 import DrawerComponent from "../components/Drawer";
 import { Outlet } from "react-router-dom";
-import { DRAWER_WIDTH_OPEN, DRAWER_WIDTH_CLOSED } from "../utils/constant";
+import { DRAWER_WIDTH_OPEN, DRAWER_WIDTH_CLOSED, HEADER_HEIGHT } from "../utils/constant";
 
 const Layout = () => {
   const styleLayout = {
@@ -36,8 +36,13 @@ const Layout = () => {
           <Box
             sx={{
               flexGrow: 1,
-              mt: 8,
+              m: 1,
+              mt: HEADER_HEIGHT,
               width: "100%",
+              height: '85.5vh',
+              backgroundColor: 'whitesmoke',
+              p: .5,
+              borderRadius: 1
             }}
           >
             <Outlet />

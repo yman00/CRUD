@@ -13,8 +13,8 @@ export default function PieActiveArc(props) {
           valueFormatter,
         },
       ]}
-      height={300}
-      width={300}
+      height={260}
+      width={250}
     />
   );
 }
